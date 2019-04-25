@@ -1,16 +1,76 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Bootstrap CSS first-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Contact Robbi Walls</title>
     </head>
     <body>
-        <h1>ADD HEADING</h1>
-    
+     <!-- the hamburger isn't working. Why not? -->
+        <div class="container"> 
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Contact</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <dl>
+                        <dt>Email:</dt>
+                        <dd><a href="mailto:rmeador@alumni.unc.edu">rmeador@alumni.unc.edu</a></dd>
+                    </dl>
+                </div>
+                <div class="col-md-5">
+                    <dl>
+                        <dt>LinkedIn</dt>
+                        <dd><a href="https://www.linkedin.com/in/robbi-walls-pmp-pba/">https://www.linkedin.com/in/robbi-walls-pmp-pba/</a></dd>
+                    </dl>
+                </div>
+            </div>
+            <!-- start form -->
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Your Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">The email you want me to use to respond.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputComment1">Comment or Question</label>
+                            <input type="comment" class="form-control" id="exampleInputComment1" placeholder="Comment">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+            <!-- End Form -->
+            </div>
+        </div>
+
+        <footer class="footer mt-auto py-3">
+            <div class="container">
+                <span class="text-muted">Copywrite &copy; 2019</span>
+            </div>
+        </footer>
     </body>
 </html>
